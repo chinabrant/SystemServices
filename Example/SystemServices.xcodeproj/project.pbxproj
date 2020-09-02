@@ -58,15 +58,15 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8354D58373CBDF79DC73CCE7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8354D58373CBDF79DC73CCE7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EE054C22D1E2570074FC547 /* Pods-SystemServices_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SystemServices_Tests.release.xcconfig"; path = "Target Support Files/Pods-SystemServices_Tests/Pods-SystemServices_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A9D403E88266F3D39DEBBF51 /* Pods-SystemServices_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SystemServices_Example.debug.xcconfig"; path = "Target Support Files/Pods-SystemServices_Example/Pods-SystemServices_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B787292B1467DBDBD4EDC042 /* Pods_SystemServices_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SystemServices_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB690DC8ADE667AFFD9E5BA5 /* Pods_SystemServices_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SystemServices_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C074B01467AD1EDE28D8C6CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C074B01467AD1EDE28D8C6CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CCF99506A20981C89E13FD3F /* Pods-SystemServices_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SystemServices_Example.release.xcconfig"; path = "Target Support Files/Pods-SystemServices_Example/Pods-SystemServices_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EDF234669D0539935D103642 /* SystemServices.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SystemServices.podspec; path = ../SystemServices.podspec; sourceTree = "<group>"; };
+		EDF234669D0539935D103642 /* SystemServices.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SystemServices.podspec; path = ../SystemServices.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				22A9B3B89F0B96BCFD333199 /* Pods-SystemServices_Tests.debug.xcconfig */,
 				9EE054C22D1E2570074FC547 /* Pods-SystemServices_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

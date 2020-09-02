@@ -1,0 +1,22 @@
+{
+  "name": "SystemServices",
+  "version": "0.1.0",
+  "summary": "A short description of SystemServices.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chinabrant/SystemServices",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chinabrant": "sjwu1234@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/chinabrant/SystemServices.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SystemServices/Classes/**/*"
+}

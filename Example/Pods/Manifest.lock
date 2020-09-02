@@ -1,0 +1,16 @@
+PODS:
+  - SystemServices (0.1.0)
+
+DEPENDENCIES:
+  - SystemServices (from `../`)
+
+EXTERNAL SOURCES:
+  SystemServices:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SystemServices: f33e2a13e053f438410f1910249d4be79254d693
+
+PODFILE CHECKSUM: 920a83c7bf31bc2221170b7fc0676ce110e7ae11
+
+COCOAPODS: 1.9.3
