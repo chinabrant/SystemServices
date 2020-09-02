@@ -7,6 +7,7 @@
 //
 
 #import "SSAccessoryInfo.h"
+#import "SystemServicesConstants.h"
 
 @implementation SSAccessoryInfo
 

@@ -1,8 +1,8 @@
 {
   "name": "SystemServices",
   "version": "0.1.0",
-  "summary": "A short description of SystemServices.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "iOS system services.",
+  "description": "This is a iOS system services functions.",
   "homepage": "https://github.com/chinabrant/SystemServices",
   "license": {
     "type": "MIT",
@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "SystemServices/Classes/**/*"
 }

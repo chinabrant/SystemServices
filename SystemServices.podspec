@@ -8,14 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SystemServices'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'iOS system services.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
   This is a iOS system services functions.
@@ -30,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SystemServices/Classes/**/*'
+  s.source_files = 'SystemServices/Classes/**/**/*'
   
   # s.resource_bundles = {
   #   'SystemServices' => ['SystemServices/Assets/*.png']
