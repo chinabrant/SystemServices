@@ -37,20 +37,20 @@
 #include <stdio.h>
 #import <TargetConditionals.h>
 
-#import "SSHardwareInfo.h"
-#import "SSJailbreakCheck.h"
-#import "SSProcessorInfo.h"
-#import "SSAccessoryInfo.h"
-#import "SSCarrierInfo.h"
-#import "SSBatteryInfo.h"
-#import "SSNetworkInfo.h"
-#import "SSProcessInfo.h"
-#import "SSDiskInfo.h"
-#import "SSMemoryInfo.h"
-#import "SSAccelerometerInfo.h"
-#import "SSLocalizationInfo.h"
-#import "SSApplicationInfo.h"
-#import "SSUUID.h"
+//#import "SSHardwareInfo.h"
+//#import "SSJailbreakCheck.h"
+//#import "SSProcessorInfo.h"
+//#import "SSAccessoryInfo.h"
+//#import "SSCarrierInfo.h"
+//#import "SSBatteryInfo.h"
+//#import "SSNetworkInfo.h"
+//#import "SSProcessInfo.h"
+//#import "SSDiskInfo.h"
+//#import "SSMemoryInfo.h"
+//#import "SSAccelerometerInfo.h"
+//#import "SSLocalizationInfo.h"
+//#import "SSApplicationInfo.h"
+//#import "SSUUID.h"
 
 // Defines
 #define MB (1024*1024)
